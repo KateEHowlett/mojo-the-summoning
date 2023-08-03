@@ -11,3 +11,5 @@ Attack.init({
     sequelize: db,
     modelName:"Attack"
 })
+
+module.exports = Attack;

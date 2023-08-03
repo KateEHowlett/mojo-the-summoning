@@ -10,3 +10,5 @@ Deck.init({
     sequelize: db,
     modelName:"Deck"
 })
+
+module.exports = Deck;

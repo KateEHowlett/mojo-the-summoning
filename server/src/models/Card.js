@@ -12,3 +12,5 @@ Card.init({
     sequelize: db,
     modelName:"Card"
 })
+
+module.exports = Card;

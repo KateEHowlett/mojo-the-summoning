@@ -9,3 +9,5 @@ User.init({
     sequelize: db,
     modelName:"User"
 })
+
+module.exports = User;
