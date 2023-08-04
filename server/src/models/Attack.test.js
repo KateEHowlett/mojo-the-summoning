@@ -1,9 +1,9 @@
-const { describe, it, expect, beforeAll, afterAll } = require('@jest/globals');
-const { Attack } = require('.');
-const { db } = require('../db/config.js');
+const { describe, it, expect, beforeAll, afterAll } = require('@jest/globals')
+const { Attack } = require('.')
+const { db } = require('../db/config')
 
 // define in global scope
-let attack;
+let attack
 
 // clear db and create new user before tests
 beforeAll(async () => {
