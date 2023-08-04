@@ -11,4 +11,4 @@ Deck.init({
     modelName:"Deck"
 })
 
-module.exports = Deck;
+module.exports = {Deck};

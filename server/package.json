@@ -4,7 +4,7 @@
   "description": "",
   "main": "run.js",
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "jest --collectCoverage=false",
     "seed": "node src/db/seed.js",
     "dev": "nodemon src/run.js",
     "start": "node src/run.js"
